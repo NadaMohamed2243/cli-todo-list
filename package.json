@@ -1,0 +1,14 @@
+{
+  "name": "todo_list_cli",
+  "version": "1.0.0",
+  "description": "to do list with cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}

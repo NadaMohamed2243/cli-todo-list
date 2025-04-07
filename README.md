@@ -19,12 +19,12 @@ A simple and interactive Command Line Todo List application built with **Node.js
 ```bash
 git clone https://github.com/your-username/cli-todo-list.git
 cd cli-todo-list
-npm install
+npm install```
+
+---
 
 
-
-
-📂 Usage
+## 📂 Usage
 General Command Structure
 bash
 Copy

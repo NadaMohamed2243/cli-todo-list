@@ -32,14 +32,14 @@ node index.js <command> [options]
 ```
 
 ## Available Commands
-#### ➕ Add a new entry
+### ➕ Add a new entry
 ```bash
 node index.js add -t "Your task title"
 ```
 #### Options:
 -t, --title (required): Title of the todo entry
 
-#### 📋 List all entries
+### 📋 List all entries
 ```bash
 node index.js list
 ```
@@ -50,7 +50,7 @@ node index.js list -s "done"
 #### Options:
 -s, --status: Filter by to-do, in progress, or done
 
-#### ✏️ Edit an entry
+### ✏️ Edit an entry
 ```bash
 node index.js edit -i <id> -t "New title" -s "done"
 ```
@@ -65,7 +65,7 @@ node index.js edit -i <id> -t "New title" -s "done"
 
 Note: You must provide at least one of -t or -s
 
-#### 🗑️ Delete an entry
+### 🗑️ Delete an entry
 ```bash
 node index.js delete <id>
 ```

@@ -32,16 +32,16 @@ node index.js <command> [options]
 ```
 
 ## Available Commands
-### ➕ Add a new entry
+#### ➕ Add a new entry
 ```bash
 node index.js add -t "Your task title"
 ```
-Options:
+#### Options:
 -t, --title (required): Title of the todo entry
 
 ---
 
-## 📋 List all entries
+#### 📋 List all entries
 ```bash
 node index.js list
 ```
@@ -49,17 +49,17 @@ Optional: Filter by status
 ```bash
 node index.js list -s "done"
 ```
-## Options:
+#### Options:
 -s, --status: Filter by to-do, in progress, or done
 
 ---
 
-## ✏️ Edit an entry
+#### ✏️ Edit an entry
 ```bash
 node index.js edit -i <id> -t "New title" -s "done"
 ```
 
-## Options:
+#### Options:
 
 -i, --id (required): ID of the entry to edit
 
@@ -69,7 +69,9 @@ node index.js edit -i <id> -t "New title" -s "done"
 
 Note: You must provide at least one of -t or -s
 
-## 🗑️ Delete an entry
+---
+
+#### 🗑️ Delete an entry
 ```bash
 node index.js delete <id>
 ```
@@ -79,13 +81,19 @@ node index.js delete <id>
 ## 💾 Data Storage
 All tasks are stored in a todos.json file in the project directory.
 
+---
+
 ## 🧩 Dependencies
 commander – CLI interface handling
 
 fs – Node.js File System for data persistence
 
+---
+
 ## 📄 License
 MIT
+
+---
 
 ## ✨ Example Workflow
 ```bash

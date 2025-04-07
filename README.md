@@ -39,8 +39,6 @@ node index.js add -t "Your task title"
 #### Options:
 -t, --title (required): Title of the todo entry
 
----
-
 #### 📋 List all entries
 ```bash
 node index.js list
@@ -51,8 +49,6 @@ node index.js list -s "done"
 ```
 #### Options:
 -s, --status: Filter by to-do, in progress, or done
-
----
 
 #### ✏️ Edit an entry
 ```bash
@@ -68,8 +64,6 @@ node index.js edit -i <id> -t "New title" -s "done"
 -s, --status: New status (to-do, in progress, or done)
 
 Note: You must provide at least one of -t or -s
-
----
 
 #### 🗑️ Delete an entry
 ```bash
